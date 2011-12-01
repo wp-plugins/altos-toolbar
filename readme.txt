@@ -1,8 +1,8 @@
 === Altos Toolbar ===
 
-Version: 1.4.4
+Version: 1.4.5
 Stable tag: trunk
-Tested up to: 3.0
+Tested up to: 3.1
 Requires at least: 2.7
 Plugin Name: Altos Toolbar
 
@@ -32,6 +32,9 @@ Easily insert Altos Charts, Regional Charts, Flash Charts and Stat Tables into y
 2. Altos Toolbar / Screenshot #2
 
 == Changelog ==
+
+= 1.4.5 =
+* Fixed problem with stats tables using data from 2011-10-07 instead of most recent data.
 
 = 1.4.4 =
 * Added support for WordPress® 3.0 `wp_loaded`.
