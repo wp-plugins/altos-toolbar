@@ -19,7 +19,7 @@ class Altos_Base
 	{
 		var $s, $sz, $rt, $ra, $q, $ts, $l;
 		/**/
-		var $webservice = "https://www.altosresearch.com/altos/app";
+		var $webservice = "http://charts.altosresearch.com/altos/app";
 		/**/
 		var $mce_plugin_path, $mce_plugin_path_js;
 		var $errorMessages = array ();
