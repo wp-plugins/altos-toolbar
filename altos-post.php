@@ -1,6 +1,6 @@
 <?php
 /*
-Copyright: © 2010 AltosResearch.com ( coded in the USA )
+Copyright: Â© 2010 AltosResearch.com ( coded in the USA )
 <mailto:support@altosresearch.com> <http://www.altosresearch.com/>
 
 Released under the terms of the GNU General Public License.
@@ -220,8 +220,9 @@ class Altos_Post
 								/**/
 								$options["sz"] = $options["size"];
 								$options["ts"] = $options["timeSpan"];
+								$options["th"] = $options["theme"];
 								/**/
-								$response = $this->get_state_city_zip_chart_url ($options["st"], $options["cid"], $options["zid"], $options["s"], $options["sz"], $options["rt"], $options["ra"], $options["q"], $options["ts"], $timeframe);
+								$response = $this->get_state_city_zip_chart_url ($options["st"], $options["cid"], $options["zid"], $options["s"], $options["sz"], $options["rt"], $options["ra"], $options["q"], $options["ts"], $options["th"], $timeframe);
 								/**/
 								if ($this->has_error ($response))
 									{

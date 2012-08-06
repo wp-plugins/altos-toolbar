@@ -33,6 +33,9 @@ Easily insert Altos Charts, Regional Charts, Flash Charts and Stat Tables into y
 
 == Changelog ==
 
+= 1.4.7 =
+* Added new chart theme to list of options
+
 = 1.4.6 =
 * Version number bump to trigger auto-updates
 

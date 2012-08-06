@@ -12,11 +12,11 @@ init: function(ed)
 /**/
 insert: function insertAltosToolbarSection(ed)
 	{
-		var a, st_cid_zid = jQuery('#altos-toolbar-dialog select[name=st,cid,zid]').val ().split (','), rt = jQuery('#altos-toolbar-dialog select[name=rt]').val (), ra = jQuery('#altos-toolbar-dialog select[name=ra]').val (), q = jQuery('#altos-toolbar-dialog select[name=q]').val (), sz = jQuery('#altos-toolbar-dialog select[name=sz]').val (), ts = jQuery('#altos-toolbar-dialog select[name=ts]').val (), s = jQuery('#altos-toolbar-dialog select[name=s]').val (), endDate = jQuery('#altos-toolbar-dialog select[name=endDate]').val (), url = jQuery('#altos-toolbar-dialog input[name=url]').val ();
+		var a, st_cid_zid = jQuery('#altos-toolbar-dialog select[name=st,cid,zid]').val ().split (','), rt = jQuery('#altos-toolbar-dialog select[name=rt]').val (), ra = jQuery('#altos-toolbar-dialog select[name=ra]').val (), q = jQuery('#altos-toolbar-dialog select[name=q]').val (), sz = jQuery('#altos-toolbar-dialog select[name=sz]').val (), ts = jQuery('#altos-toolbar-dialog select[name=ts]').val (), s = jQuery('#altos-toolbar-dialog select[name=s]').val (), th = jQuery('#altos-toolbar-dialog select[name=th]').val (),endDate = jQuery('#altos-toolbar-dialog select[name=endDate]').val (), url = jQuery('#altos-toolbar-dialog input[name=url]').val ();
 		/**/
 		url = (!url || url == 'http://') ? '' : url, url = (url && !url.match (/^http\:\/\//i)) ? 'http://' + url : url;
 		/**/
-		var content = ((url) ? '<a href="' + url + '">' : '') + '<img src="http://charts.altosresearch.com/altos/app?pai=' + escape(AltosToolbarDialog.pai) + '&service=chart&st=' + escape(st_cid_zid[0]) + '&cid=' + escape(st_cid_zid[1]) + '&zid=' + escape(st_cid_zid[2]) + '&rt=' + escape(rt) + '&ra=' + escape(ra) + '&q=' + escape(q) + '&s=' + escape(s) + '&sz=' + escape(sz) + '&ts=' + escape(ts) + ((endDate && endDate !== 'dynamic') ? '&endDate=' + escape(endDate) : '') + '" alt="" />' + ((url) ? '</a>' : '');
+		var content = ((url) ? '<a href="' + url + '">' : '') + '<img src="http://charts.altosresearch.com/altos/app?pai=' + escape(AltosToolbarDialog.pai) + '&service=chart&st=' + escape(st_cid_zid[0]) + '&cid=' + escape(st_cid_zid[1]) + '&zid=' + escape(st_cid_zid[2]) + '&rt=' + escape(rt) + '&ra=' + escape(ra) + '&q=' + escape(q) + '&s=' + escape(s) + '&sz=' + escape(sz) + '&ts=' + escape(ts) + '&theme=' + escape(th) + ((endDate && endDate !== 'dynamic') ? '&endDate=' + escape(endDate) : '') + '" alt="" />' + ((url) ? '</a>' : '');
 		/**/
 		if (editing)
 			{
@@ -57,6 +57,7 @@ onReady: function()
 				(settings['q']) ? jQuery('select[name=q]').val (settings['q']) : null;
 				(settings['sz']) ? jQuery('select[name=sz]').val (settings['sz']) : null;
 				(settings['ts']) ? jQuery('select[name=ts]').val (settings['ts']) : null;
+				(settings['th']) ? jQuery('select[name=th]').val (settings['th']) : null;
 				(settings['s']) ? jQuery('select[name=s]').val (settings['s']) : null;
 				(settings['endDate']) ? jQuery('select[name=endDate]').attr ('prefill', settings['endDate']) : null;
 				(settings['url']) ? jQuery('input[name=url]').val (settings['url']) : null;

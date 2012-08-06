@@ -83,6 +83,10 @@
 				</td>
 			<tr>
 			
+			<tr class="even">
+				<td colspan="2">
+					<p><label for="altos-charts-th"><?php _e("Color Theme:"); ?></label><br /><select name="th"><?php $Altos_Toolbar->print_options($Altos_Toolbar->th); ?></select></p></select></p>						
+				</td>
 			<tr>
 				<td colspan="2">
 					<br />

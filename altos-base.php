@@ -17,7 +17,7 @@ Class for Altos Base.
 */
 class Altos_Base
 	{
-		var $s, $sz, $rt, $ra, $q, $ts, $l;
+		var $s, $sz, $rt, $ra, $q, $ts, $l, $th;
 		/**/
 		var $webservice = "http://charts.altosresearch.com/altos/app";
 		/**/
@@ -48,6 +48,8 @@ class Altos_Base
 				$this->ts = array ("e" => "1-year", "f" => "2-year", "g" => "3-year", "z" => "All Available Data");
 				/**/
 				$this->l = array ("b" => "Narrow", "f" => "Wide");
+				/**/
+				$this->th = array("newchart" => "Red Pallet", "oldchart" => "Black Pallet");
 				/**/
 				$this->format = array ("narrow" => "Narrow", "wide" => "Wide");
 				/**/
