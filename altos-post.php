@@ -133,7 +133,7 @@ class Altos_Post
 												$stat_table_html .= '<tr class="head">';
 												$stat_table_html .= '<th colspan="4">';
 												$stat_table_html .= $stat_table->rollingAverage . ' stats for ' . $stat_table->residenceType . ' properties in<br />';
-												$stat_table_html .= $stat_table->cityName . ', ' . $stat_table->state . '' . $stat_table->zipCode . ' as of ' . date ("F j, Y", strtotime ($stat_table->date));
+												$stat_table_html .= $stat_table->cityName . ', ' . $stat_table->state . ' ' . $stat_table->zipCode . ' as of ' . date ("F j, Y", strtotime ($stat_table->date));
 												$stat_table_html .= '</th>';
 												$stat_table_html .= '</tr>';
 												/**/
