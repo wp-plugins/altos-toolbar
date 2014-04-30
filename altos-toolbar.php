@@ -8,9 +8,9 @@ You should have received a copy of the GNU General Public License.
 If not, see: <http://www.gnu.org/licenses/>.
 */
 /*
-Version: 1.4.9
+Version: 1.5.0
 Stable tag: trunk
-Tested up to: 3.5
+Tested up to: 3.6
 Requires at least: 3.5
 Plugin Name: Altos Toolbar
 
