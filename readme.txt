@@ -1,7 +1,7 @@
 ﻿=== Altos Toolbar ===
 
-Version: 1.5.1
-Stable tag: 1.5.1
+Version: 1.6
+Stable tag: 1.6
 Tested up to: 3.9
 Requires at least: 3.9
 Plugin Name: Altos Toolbar
@@ -32,6 +32,9 @@ Easily insert Altos Charts, Regional Charts, Flash Charts and Stat Tables into y
 2. Altos Toolbar / Screenshot #2
 
 == Changelog ==
+= 1.6 = 
+* Allow for more charts
+
 = 1.5.1 = 
 * Redo toolbar plugin to agree with TinyMCE version 4.x
 
