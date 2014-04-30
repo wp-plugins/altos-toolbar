@@ -1,7 +1,7 @@
 ﻿=== Altos Toolbar ===
 
 Version: 1.5.1
-Stable tag: trunk
+Stable tag: 1.5.1
 Tested up to: 3.9
 Requires at least: 3.9
 Plugin Name: Altos Toolbar
