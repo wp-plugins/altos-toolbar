@@ -24,6 +24,7 @@ Description: Easily insert Altos Charts, Regional Charts, Flash Charts and Stat 
 */
 /*
 Direct access denial.
+
 */
 if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
 	exit;
