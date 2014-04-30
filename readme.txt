@@ -32,6 +32,8 @@ Easily insert Altos Charts, Regional Charts, Flash Charts and Stat Tables into y
 2. Altos Toolbar / Screenshot #2
 
 == Changelog ==
+= 1.5.1 = 
+* Redo toolbar plugin to agree with TinyMCE version 4.x
 
 = 1.5.0 = 
 * Updated icons and confirmed working with 3.6
