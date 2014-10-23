@@ -2,7 +2,7 @@
 
 Version: 1.6.1
 Stable tag: 1.6.1
-Tested up to: 3.9
+Tested up to: 4.1
 Requires at least: 3.9
 Plugin Name: Altos Toolbar
 
