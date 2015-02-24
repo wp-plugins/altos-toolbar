@@ -32,6 +32,10 @@ Easily insert Altos Charts, Regional Charts, Flash Charts and Stat Tables into y
 2. Altos Toolbar / Screenshot #2
 
 == Changelog ==
+
+= 1.6.1 = 
+* Remove extra files
+
 = 1.6 = 
 * Allow for more charts
 
