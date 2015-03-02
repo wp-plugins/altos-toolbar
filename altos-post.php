@@ -42,7 +42,7 @@ class Altos_Post
 					{
 						$options = null;
 						/**/
-						$string = str_replace ("\"", "", str_replace (" ", "&", trim ($match_attributes[2][$key])));
+						$string = str_replace (" ", "&", str_replace (array("&#8221;" , "&#8243;"), "", trim ($match_attributes[2][$key])));
 						/**/
 						parse_str ($string, $options);
 						/**/
