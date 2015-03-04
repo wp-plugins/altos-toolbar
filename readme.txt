@@ -1,7 +1,7 @@
 ﻿=== Altos Toolbar ===
 
-Version: 1.6.1
-Stable tag: 1.6.1
+Version: 1.6.2
+Stable tag: 1.6.2
 Tested up to: 4.1
 Requires at least: 3.9
 Plugin Name: Altos Toolbar
@@ -32,6 +32,9 @@ Easily insert Altos Charts, Regional Charts, Flash Charts and Stat Tables into y
 2. Altos Toolbar / Screenshot #2
 
 == Changelog ==
+
+= 1.6.2 = 
+* Fix data table character parsing bug
 
 = 1.6.1 = 
 * Remove extra files
